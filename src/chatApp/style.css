@@ -1,0 +1,213 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+* {
+    font-family: poppins;
+    transition-duration: all .3 linear;
+}
+
+.overlay h3:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+
+}
+
+.overlay h3 {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+}
+.chat::after{
+    content: '';
+    /* height: 100px; */
+    /* background-color: red; */
+           position: absolute;
+           top: -9px;
+           border: 15px solid transparent;
+           z-index: -20;
+           transform: rotate(36deg);
+           left: -16px;
+           
+}
+.chat2::after{
+       position: absolute;
+       top: 28px;
+       border: 12px solid transparent;
+       z-index: -20;
+       transform: rotate(227deg);
+       right: -10px;
+       
+   }
+   .contC{
+    background-image: url('/img/seattle.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+.plus {
+    border: 3px solid;
+}
+
+.x {
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 0.3 linear;
+}
+
+.x:hover {
+    scale: 1.1;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.phone {
+    transform: rotate(90deg);
+}
+
+.se {
+    display: flex;
+    /* background: red; */
+    text-align: start;
+    width: 60%;
+    padding: 0px 0px;
+    flex-direction: column;
+}
+
+.chats {
+    height: 100%
+}
+
+.log {
+    position: relative;
+}
+
+.se h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.se p {
+    /* letter-spacing: 0.5px; */
+    color: rgb(178, 175, 175);
+}
+
+/* .active{
+  border-bottom: 3px solid green;
+} */
+.card {
+    /* background-color: #075e54; */
+    padding: 15px;
+    /* color: rgb(203, 199, 199); */
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.nav {
+    margin-top: 30px;
+    width: 100%;
+    /* background-color: #075e54; */
+    padding: 0 5px;
+}
+
+.nav span {
+    background-color: rgb(3, 142, 40);
+    border-radius: 50%;
+    color: rgb(34, 33, 33);
+    padding: 5px;
+    font-size: 15px;
+    height: 25px;
+    font-weight: 500;
+    position: relative;
+    transform: translateY(3px);
+    width: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    /* background-color: red; */
+    justify-content: flex-start;
+}
+
+.back {
+    cursor: pointer;
+}
+
+.form input {
+    /* background-color: none; */
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.overlay {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    top: 105px;
+    width: 230px;
+    /* height: 260px; */
+    font-size: 20px;
+    /* padding-left:18px; */
+    display: flex;
+    right: 3px;
+    border-radius: 4px;
+}
+
+.overlay div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ic {
+    cursor: pointer;
+}
+
+.nav div {
+    cursor: pointer;
+    display: flex;
+}
+
+.la {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.head {
+    display: flex;
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.head h3 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+
+.status {
+      border: 3px solid rgb(0 255 0 / 43%);
+      border-style: dashed;
+      border-bottom-style: solid;
+      border-top-style: solid;
+      padding: 2px;
+    }

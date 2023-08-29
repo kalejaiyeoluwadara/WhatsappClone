@@ -1,0 +1,38 @@
+export default [{
+        name: "Dante",
+        recent: "Remember to bring the book!",
+        img: "/img/chicago.jpg",
+        time: "13:45",
+        mtime: 'Today, 9:59 AM',
+        missed: 'false',
+        unread: 1,
+    },
+    {
+        name: "John",
+        recent: "Hey, how's it going?",
+        img: "/img/anya.jpg",
+        time: "09:15",
+        missed: 'false',
+        mtime: 'Yesterday, 9:29 AM',
+        unread: 2,
+    },
+    {
+        name: "Twitter",
+        recent: "Did you see the latest tweet?",
+        img: "/img/seattle.jpg",
+        time: " 9:29",
+        missed: 'true',
+        mtime: 'Yesterday, 9:59 AM',
+        unread: 0,
+    },
+    {
+        name: "Snapchat",
+        recent: "Just snapped a funny moment!",
+        img: "/img/toronto.jpg",
+        time: "22:17",
+        missed: 'false',
+        mtime: 'Yesterday, 2:59 AM',
+        unread: 5,
+    },
+  
+];
